@@ -1,0 +1,11 @@
+<package format="3">
+  <name>turtlebot_autonomous_nav</name>
+  <version>0.0.0</version>
+  <description>Pacote para navegação autônoma com TurtleBot3</description>
+  <maintainer email="rafa@example.com">rafa</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+</package>
