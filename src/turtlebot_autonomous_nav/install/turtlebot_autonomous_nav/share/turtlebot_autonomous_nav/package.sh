@@ -78,8 +78,10 @@ _colcon_package_sh_source_script() {
 }
 
 # source sh hooks
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/turtlebot_autonomous_nav/hook/pythonpath.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/turtlebot_autonomous_nav/hook/ament_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/turtlebot_autonomous_nav/hook/cmake_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/turtlebot_autonomous_nav/hook/ros_package_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/turtlebot_autonomous_nav/hook/pkg_config_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/turtlebot_autonomous_nav/hook/pkg_config_path_multiarch.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX
